@@ -1,0 +1,5 @@
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+
+[jnt:exampleText] > jnt:content, jmix:basicContent, jmix:editorialContent
+    - text (string, richtext[ckeditor.customConfig='$context/modules/ck-config-example-module/javascript/ckconfigexamplemodule.js'])
